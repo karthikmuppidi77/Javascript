@@ -1,10 +1,9 @@
 li{
     font-size: 30px;
+    color: black;
+    
+}
+p{
+    font-size: 20px;
 
-}
-li:nth-child(1){
-    color:brown
-}
-li:first-child{
-    color: aqua
 }
