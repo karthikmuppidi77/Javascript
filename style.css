@@ -1,0 +1,10 @@
+li{
+    font-size: 30px;
+
+}
+li:nth-child(1){
+    color:brown
+}
+li:first-child{
+    color: aqua
+}
