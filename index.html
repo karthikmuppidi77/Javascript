@@ -8,47 +8,138 @@
      <script src="script.js"></script>
      <script src="dialog.js"></script>
      <script src="string.js"></script>
-     
+     <script src="logical.js"></script>
+     <script src="logical.js"></script>
+     <script src="object1.js"></script>
 </head>
-<body>
-    <h1>Datatypes</h1>
-    <ul>
-        <li>number</li>
-        <li>String</li>
-        <li>bollean</li>
-        <li>undefined</li>
-        <li>bigint</li>
-        <li>symbol</li>
-        <li>null</li>
-    </ul>
-    <h1>variables</h1>
-    <ul>
-        <li>var</li>
-        <li>let</li>
-        <li>const</li>
-    </ul>
-     <h1>Variables in JavaScript</h1>
-    <h2>A JavaScript variable is just a name of storage location.</h2>
-    <p>And we can give that name in three ways.</p>
-    <ul>
-      <li>Using <code>let</code> keyword.</li>
-      <li>Using <code>const</code> keyword.</li>
-      <li>Using <code>var</code> keyword.</li>
-    </ul>
-    <h3>Rules for naming variables.</h3>
-    <p>
-      A variable name can contain any  of  the following charaters but must not start with
-      a digit.
-    </p>
-    <ul>
-        <h1>Code Execution in JavaScript</h1>
-        <h1>Dialog Boxes</h1>
-    <h2>There are three types of Dialog Boxes</h2>
+  <h1> datatypes</h1>
+     <ol>
+         <li>String</li>
+         <li>bigint</li>
+         <li>boolean</li>
+         <li>undefined</li>
+         <li>number</li>
+         <li>symbol</li>
+         <li>Null</li>
+         
+         
+      </ol>
+  <h1>variables</h1>  
+     <ol>
+          <li>var</li>
+          <li>let</li>
+          <li>const</li>
+      </ol>
+  <h1>variables in java script</h1> 
+  <h2>in javascript variables is just a name for storing the location</p>  
+     <p>and we can give that name in three ways</p>
+     <ol> 
+         <li>using <code>var</code></li>
+         <li>using <code>let</code></li>
+         <li>using <code>const</code></li>
+         
+     </ol>
+     <p>A variable name can contain any of the folling names but not 
+         with a digit
+     </p>
+  <h1>code execution in java script</h>  
+  <h1>dialog boxes</h>
+  <h2>there are three types of dialoug boxes</h2>
+     <ol>
+      <li>alert</li>
+      <li>prompt</li>
+      <li>confirm</li>
+     </ol>
+  <h3>Execution code</h> 
     <ol>
-        <li><code>alert("Your message goes here.")</code></li>
-        <li><code>confirm("Your message goes here.")</code></li>
-        <li><code>prompt("Your message goes here.")</code></li>
-    </ol>
+      <li>using<code>alert</code></li>
+      <li>using<code>prompt</code></li>
+      <li>using<code>confirm</code></li>
+    </ol>  
     
-</body>
+  <h1>String Methods and Properties</h1>
+    <p>
+      Before starting string methods and properties we need know that strings
+      are indexed. So basically we can access any single character of a string
+      by doing something like this.
+    </p>
+    <p>Expression: <code>'Hello World'[1]</code></p>
+    <p>Result: <code>'e'</code></p>
+    <p>There is only one property that exists.</p>
+    <h2>Property</h2>
+    <ul>
+      <li><code>length</code></li>
+    </ul>
+  <h2>Methods (Without Argument)</h2>
+    <ul>
+      <li><code>toUpperCase()</code></li>
+      <li><code>toLowerCase()</code></li>
+      <li><code>trim()</code></li>
+      <li><code>trimStart()</code></li>
+      <li><code>trimEnd()</code></li>
+    </ul>
+  <h2>Methods (With Argument)</h2>
+    <ul>
+      <li><code>includes()</code></li>
+      <li><code>indexOf()</code></li>
+      <li><code>replace()</code></li>
+      <li><code>replaceAll()</code></li>
+      <li><code>concat()</code></li>
+      <li><code>padStart()</code></li>
+      <li><code>padEnd()</code></li>
+      <li><code>charAt()</code></li>
+      <li><code>charCodeAt()</code></li>
+      <li><code>split()</code></li>
+    </ul>
+
+  <h1>Math in JavaScript</h1>
+    <h2>Mathematical Operators</h2>
+    <ol>
+      <li>Addition Operator: +</li>
+      <li>Subtraction Operator: -</li>
+      <li>Multiplication Operator: *</li>
+      <li>Division Operator: /</li>
+      <li>Remainder Operator: %</li>
+      <li>Exponentiation Operator: **</li>
+    </ol>
+  <h2>Math Object in JavaScript</h2>
+  <h3>Properties on Math Object</h3>
+    <ul>
+        <li>Math.PI</li>
+        <li>Math.SQRT2</li>
+        <li>Math.E</li>
+    </ul>
+  <h3>Methods on Math Object</h3>
+    <ul>
+        <li>Math.sqrt(x)</li>
+        <li>Math.pow(x, y)</li>
+        <li>Math.floor(x)</li>
+        <li>Math.ceil(x)</li>
+        <li>Math.round(x)</li>
+        <li>Math.random()</li>
+    </ul>
+    <p>8 / 0 = Infinity</p>
+    <p>-8 / 0 = -Infinity</p>
+      
+  <h1>Truthy and Falsy Values</h1>
+    <h2>Falsy Values</h2>
+    <ul>
+      <li>0</li>
+      <li>-0</li>
+      <li>NaN</li>
+      <li>''</li>
+      <li>undefined</li>
+      <li>null</li>
+    </ul>
+
+  <h1>Comparison Operators</h1>
+    <p>== equal to (equality) [it does implicit (automatic) conversion]</p>
+    <p>=== equal value and equal type (strict equality) [you have to do explicit (manual) conversion]</p>
+    <p>!= not equal</p>
+    <p>!== not equal value or not equal type (strict)</p>
+    <p>> greater than</p>
+    <p>< less than</p>
+    <p>>= greater than or equal to</p>
+    <p><= less than or equal to</p>
+</ul>
 </html>
