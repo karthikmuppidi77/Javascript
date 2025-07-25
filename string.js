@@ -1,8 +1,8 @@
 const identity = 'karthik';
 const identity1= identity.toUpperCase();
 console.log(identity1)
-var location = "visakhapatnam"
-var town = location.toLowerCase();
+//var location = "visakhapatnam"
+//var town = location.toLowerCase();
 console.log(town)
 var qualification = "   BTECH    "
 var graduation =qualification.trim()
@@ -11,7 +11,7 @@ var graduation=qualification.trimStart()
 console.log(graduation)
 var graduation=qualification.trimEnd()
 console.log(graduation)
-var town =location.replace("visakhapatnam","srikakulam")
+//var town =location.replace("visakhapatnam","srikakulam")
 console.log(town)
 var town =location.indexOf()
 let text ="cats are very locality.And cats are very frendiely nature to every living organismAnd cats are very popular"
