@@ -79,3 +79,25 @@ console.log(cars);
 const ece=["fan","bulbs","wiring","ac",3]
 ece.toString()
 console.log(ece);
+
+//array objects
+let healthy_diet =["guava","banana","mango","apple"]
+let healthy_protien=healthy_diet;
+//let healthy_diet =["guava","banana","mango","apple"]
+//let healthy_protien=[]
+//Object.assign(healthy_protien,healthy_diet);
+//healthy_protien.push("grapes");
+//console.log(healthy_protien);
+//console.log(healthy_diet);
+
+
+ let heathy_protien=[...healthy_diet];
+ healthy_diet.push("grapes");
+ console.log(heathy_protien);
+ console.log(healthy_diet);
+
+
+
+
+
+
