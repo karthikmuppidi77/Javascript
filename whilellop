@@ -4,3 +4,11 @@ while(i<=100){
     i++;
    
 }
+console.log("programm started");
+const friends=["karthik","dhoni","sruthi","swetha","sravani"];
+let j=1;
+while(j<=friends.length){
+    console.log(`${ friends[j]} from visakhapatnam`);
+     j++;
+}
+console.log("program end");
