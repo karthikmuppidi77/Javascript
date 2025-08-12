@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="rest"></div>
+    <script>
+        // we can write infinate numbers
+        function add(...params){//params
+        //add(1,45,4,5)
+        let sum=0;
+        for (let i of params){
+            sum+=i;
+        }
+        return  sum;
+        }
+        let final_value=add(20,40,40);// args
+        document.getElementById("rest").innerHTML=`the final sum is ${final_value}`;
+
+
+    </script>
+    
+</body>
+</html>
