@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //let ,const are keyword can define variables
+        // let,const are scope variables
+        // let to prevent the leakage of the scope 
+    
+    let i=10;
+     {
+        let i=9;
+        console.log(i);//9
+     }
+    console.log(i);//10
+
+
+    const PI=3.14;
+    console.log(PI);
+    const a=[1,2,4]
+   // a=[1,2,3] error
+    console.log(a);
+    </script>
+</body>
+</html>
