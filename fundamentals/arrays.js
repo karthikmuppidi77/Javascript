@@ -7,11 +7,11 @@ const add =["ranasthalam"];
 console.log(add);
 console.log(cities);
 cities[0]="palasa"
-console.log(cities);
-const person = {firstName:"karthik", lastName:"dhoni", age:26};
-const fName=person.firstName
-console.log(fName);
-const sports=["basketball",1]
+// console.log(cities);
+// const person = {firstName:"karthik", lastName:"dhoni", age:26};
+// const fName=person.firstName
+// console.log(fName);
+// const sports=["basketball",1]
 
 //slice practice
 const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango","grapes","dates"];
@@ -23,16 +23,13 @@ console.log(fruits);
 //splice practice
 const places=["hyderabad","mysore","coimbature","shimla","srinagar"]
 // it will modify the original Array not assaign to another varaiable
-// ex:const travel=places.splice(1,0,"Amaravathi");
+// ex:const travel=places.splice(2,1,"Amaravathi");
 
 
-//places.splice(1,0,"Amaravathi");
-//console.log(places);
+places.splice(2,2,"Amaravathi","subhdrapuram");
 
 //to delete the coimbature place
 
-console.log(places);
-places.splice(2,1)
 console.log(places);
 
 //Multidimension Array
@@ -97,18 +94,18 @@ let healthy_protien=healthy_diet;
 //  console.log(healthy_diet);
 
 // ARRAYS methods
-// var heroes=["ntr","pk","maheshbabu",7]
-// heroes[2]="sruthi"
-// console.log(heroes)
-// heroes[100]="amrutha"
-// console.log(heroes);
-// console.log(heroes.length);
-// heroes.push("akhila")
-// console.log(heroes);
-// heroes.pop();
-// console.log(heroes.pop());
-// heroes.unshift("hima bindu")
-// heroes.shift()
+ var heroes=["ntr","pk","karthik",7]
+ heroes[2]="sruthikarthik"
+ console.log(heroes)
+ heroes[100]="amruthasis"
+ console.log(heroes);
+ console.log(heroes.length);
+ heroes.push("akhilakarthik")
+ console.log(heroes);
+ //heroes.pop();// it elements the last element of an array
+ //console.log(heroes.pop());
+ heroes.unshift("hima bindu") //it adds the first element of an array
+//heroes.shift()
 // console.log(heroes.shift());
 // console.log(heroes);
 // heroes.indexOf(1)

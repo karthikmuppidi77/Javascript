@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="map"></div>
+    <div id="map"> hello World</div>
     <script>
         const colors=new Map([
             ["karthik","yellow"],
@@ -19,7 +19,14 @@
          console.log(fav_color);
          console.log(fav_color1);
          document.getElementById("map").innerHTML=`karthik fav color is ${fav_color}`
+
+         const karthik=new Map([
+            ["karthik:green"]
+            ["sunitha:yellow"]
+         ])
+         let my_color=karthik.get("sunitha")
+         document.getElementById("map").innerHTML=`sunitha fav color is ${my_color}`
     </script>
-    
+
 </body>
 </html>
