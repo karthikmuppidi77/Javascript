@@ -1,3 +1,3 @@
 settimeout(print,2000);
 print()
-console.log("HELLO");
+console.log("HELLO yes");

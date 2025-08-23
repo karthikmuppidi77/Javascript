@@ -11,7 +11,7 @@ var graduation=qualification.trimStart()
 console.log(graduation)
 var graduation=qualification.trimEnd()
 console.log(graduation)
-var town =loc.replace("visakhapatnam","srikakulam")
+var town =loc.replace("vizag","srikakulam")
 console.log(town)
 var town =loc.indexOf()
 let text ="cats are very locality.And cats are very frendiely nature to every living organismAnd cats are very popular"

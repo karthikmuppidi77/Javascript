@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <script src="guess.js" defer></script>
+    <link rel="stylesheet" href="guess.css">
+</head>
+<body>
+    <form>
+        <p class="recover">
+I'm thinking of a number between 0 and 10. Can you guess it?
+You have 9 guesses remaining.
+</p>
+    <p id="para">your guessing number 0 And 10</p>
+    <input type="number" class="user_input" placeholder="Enter A Number" min="0" max="10" required="true">
+    <p class="result">Entet a number between 0 and 10</p>
+    <div> 
+    <button class="submit" type="submit" >Submit</button>
+    <button class="new_game" disabled>NewGame</button> 
+    </div>
+   </form>
+
+    <p class="my_guess"></p>
+    <p class="output"></p>
+</body>
+
+
+</html>
